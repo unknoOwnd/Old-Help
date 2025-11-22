@@ -1,0 +1,55 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 4rem 2rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.action-card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.action-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.action-card .icon {
+    font-size: 4rem;
+    color: #007bff;
+}
+
+.action-card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.toast-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1055;
+}
